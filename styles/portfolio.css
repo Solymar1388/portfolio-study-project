@@ -51,7 +51,7 @@ p {
 }
 
 .content-container {
-    padding: 160px 20px;
+    padding: 60px 20px;
 }
 
 .content-container h1 {
@@ -109,6 +109,19 @@ p {
 .project-desciption {
     padding: 120px 60px;
 }
+
+.myphoto {
+    max-height: 80%;
+}
+.active {
+    color: var(--branding-color) !important;
+}
+
+.nav-item {
+    padding: 10px 15px;
+    line-height: 26px;
+}
+
 
 @media (max-width: 900px) {
     h1 {
