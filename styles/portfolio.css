@@ -24,7 +24,7 @@ h2 {
     font-size: 64px;
 }
 
-h4 {
+h3 {
     font-size: 48px;
 }
 
@@ -34,10 +34,41 @@ p {
     line-height: 30px;
 }
 
+.logo {
+    max-height: 40px;
+}
+
+nav {
+    padding: 20px 0;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #272142;
+    transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+    color: var(--branding-color);
+}
+
 .hero {
     background: var(--secondary-color);
     text-align: center;
-    padding: 160px 20px;
+    padding: 80px 20px;
 }
 
 .hero p {
@@ -175,12 +206,8 @@ footer .social-links a:hover {
         font-size: 44px;
     }
 
-    h4 {
+    h3 {
         font-size: 26px;
-    }
-
-    .hero {
-        padding: 80px 20px;
     }
 
     .content {
