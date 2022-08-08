@@ -145,9 +145,6 @@ nav li.active a {
     padding: 120px 60px;
 }
 
-.myphoto {
-    max-height: 80%;
-}
 .active {
     color: var(--branding-color) !important;
 }
